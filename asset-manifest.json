@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react_auth/static/css/main.70b99950.css",
+    "main.js": "/react_auth/static/js/main.ff91890f.js",
+    "static/media/anime.mp4": "/react_auth/static/media/anime.e3c3e0d2015ca3f883c6.mp4",
+    "index.html": "/react_auth/index.html",
+    "main.70b99950.css.map": "/react_auth/static/css/main.70b99950.css.map",
+    "main.ff91890f.js.map": "/react_auth/static/js/main.ff91890f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70b99950.css",
+    "static/js/main.ff91890f.js"
+  ]
+}
