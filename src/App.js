@@ -8,7 +8,9 @@ import Profile from "./component/Profile";
 import { useAuth0 } from "@auth0/auth0-react";
 
 function App() {
-  const { isLoading, error } = useAuth0();
+  const { isAuthenticated, isLoading, error } = useAuth0();
+
+  if (isLoading) return <h1>Loading...</h1>;
 
   return (
     <>
@@ -22,8 +24,7 @@ function App() {
           {!error && isLoading && <p>Loading...</p>}
           {!error && !isLoading && (
             <>
-              <LoginButton />
-              <LogoutButton />
+              {isAuthenticated ? <LogoutButton /> : <LoginButton />}
               <Profile />
             </>
           )}
