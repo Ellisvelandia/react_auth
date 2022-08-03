@@ -3,8 +3,8 @@ import * as React from "react";
 const SvgComponent = (props) => (
   <div className="bird">
     <svg
-      width={1144.12}
-      height={400}
+      width={114}
+      height={100}
       viewBox="0 0 572.06 200"
       style={{
       }}
@@ -14,7 +14,7 @@ const SvgComponent = (props) => (
       <g id="bird">
         <g
           style={{
-            fill: "#b8e4c2",
+            fill: "#85b8f4",
           }}
         >
           <path d="M48.42 78.11c0-17.45 14.14-31.58 31.59-31.58s31.59 14.14 31.59 31.58c0 17.44-14.14 31.59-31.59 31.59S48.42 95.56 48.42 78.11" />
@@ -22,7 +22,7 @@ const SvgComponent = (props) => (
           <path
             d="M105.78 75.09c4.56 0 8.84 1.13 12.62 3.11l.01-.01 36.23 12.38s-13.78 30.81-41.96 38.09c-1.51.39-2.82.59-3.99.62-.96.1-1.92.16-2.9.16-15.01 0-27.17-12.17-27.17-27.17-.01-15.01 12.16-27.18 27.16-27.18"
             style={{
-              fill: "#81ccaa",
+              fill: "#023f82",
             }}
           />
         </g>

@@ -20,7 +20,7 @@ const SvgComponent = (props) => (
       </defs>
       <use xlinkHref="#a" />
     </svg>
-    <img class="couch__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/couch-8_xrckc2.png" alt="" />
+    <img id="couch__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/couch-8_xrckc2.png" alt="" />
   </div>
 )
 
